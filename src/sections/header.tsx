@@ -3,7 +3,7 @@ const Header = () => {
     <div className="py-4 lg:py-6 px-4 border-b border-[#E2E2E4]">
       <div className="max-w-[1320px] mx-auto flex justify-between items-center gap-4">
         <img
-          src="/logo.png"
+          src="/logo.svg"
           alt="Logo"
           className="h-8 lg:h-9 w-auto flex-shrink-0"
         />

@@ -22,16 +22,16 @@ const metrics = [
 
 const WhyLeomart = () => {
   return (
-    <div className="max-w-[1320px] mx-auto px-4 py-12 lg:py-16">
+    <div className="max-w-[1320px] mx-auto px-4 py-8">
       <div className="text-center mb-8 lg:mb-12">
-        <h2 className="font-bold text-2xl lg:text-4xl text-[#1B1B20]">
+        <h2 className="font-bold text-2xl lg:text-4xl text-[#2DCC70]">
           Why Choose Lomart?
         </h2>
       </div>
 
       <div className="flex flex-col lg:flex-row items-center justify-center gap-6 lg:gap-4">
         {metrics.map((metric, index) => (
-          <div key={index} className="flex items-center">
+          <div key={index} className="flex items-start">
             <div className="flex flex-col items-center text-center max-w-[305px] w-full">
               <div className="mb-4 lg:mb-6">
                 <img

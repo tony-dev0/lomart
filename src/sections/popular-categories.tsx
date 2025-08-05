@@ -61,9 +61,9 @@ const categories = [
 
 const PopularCategories = () => {
   return (
-    <div className="max-w-[1320px] mx-auto px-4 py-12 lg:py-16">
+    <div className="max-w-[1320px] mx-auto px-4 py-8">
       <div className="text-center mb-8 lg:mb-12">
-        <h2 className="font-bold text-2xl lg:text-4xl text-[#1B1B20]">
+        <h2 className="font-bold text-2xl lg:text-4xl text-[#2DCC70]">
           Popular Categories
         </h2>
       </div>

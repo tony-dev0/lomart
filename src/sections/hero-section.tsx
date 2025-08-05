@@ -1,82 +1,86 @@
 import React from "react";
 
-const categories = [
-  {
-    name: "All Categories",
-    icon: "/menu (1).png",
-  },
-  { name: "Offers" },
-  { name: "Today's Deals" },
-];
-
 const HeroSection = () => {
   return (
     <div>
-      <div>
-        <div className="max-w-[1320px] mx-auto px-4 flex flex-wrap items-center gap-2 lg:gap-3 py-2">
-          {categories.map((category, index) => (
-            <button
-              key={index}
-              className={`${
-                index === 0 ? "bg-[#05A845] text-white" : "text-[#1B1B20]"
-              } px-3 lg:px-4 py-2.5 lg:py-3.5 flex items-center gap-2 text-sm lg:text-[15px] font-medium rounded-md`}
-            >
-              {category.icon && (
-                <img
-                  src={category.icon}
-                  alt={category.name}
-                  className="h-4 w-4"
-                />
-              )}
-              <span className="whitespace-nowrap">{category.name}</span>
+      <div className="bg-white">
+        <div className="max-w-[1320px] mx-auto px-4 flex flex-col md:flex-row md:items-center justify-between gap-3">
+          <div className="flex items-center gap-6">
+            <button className="bg-[#2DCC70] text-white py-3 px-2 md:px-4 md:py-4 h-fit text-xs md:text-sm font-medium flex items-center gap-2">
+              <img
+                src="/menu (1).png"
+                alt="menu icon"
+                className="h-4 w-4 md:h-5 md:w-5"
+              />
+              All Categories
             </button>
-          ))}
+            <button className="text-gray-700 text-xs md:text-sm font-medium">
+              Offers
+            </button>
+            <button className="text-gray-700 text-xs md:text-sm font-medium">
+              Today's Deals
+            </button>
+          </div>
+
+          <div className="text-sm">
+            <span className="text-gray-600">Need help? </span>
+            <span className="text-[#05A845] font-medium">
+              contact@lomart.com
+            </span>
+          </div>
         </div>
-        <div
-          className="bg-cover bg-center bg-no-repeat min-h-[550px]"
-          style={{ backgroundImage: "url('/image 33.svg')" }}
-        >
-          <div className="max-w-[1320px] mx-auto py-10 px-4 flex flex-col items-start justify-center h-full min-h-[550px] gap-16">
-            <div className="max-w-[630px] w-full">
-              <h1 className="text-[32px] lg:text-[55px] font-bold text-[#1B1B20] leading-8 lg:leading-14">
-                Your Local Market,
-                <br className="hidden lg:flex"/> Now Just A Tap Away
-              </h1>
-              <p className="text-[#595959] mt-4">
-                Browse real-time product prices, know what’s in stock, and save
-                yourself the walk-around. Lomart brings your trusted market
-                online.
-              </p>
-            </div>
-            <div className="max-w-[548px] w-full">
-              <div className="relative flex items-center   w-full">
+      </div>
+
+      <div className=" lg:min-h-[600px]">
+        <div className="max-w-[1320px] mx-auto px-4 py-6 lg:py-2 flex flex-col lg:flex-row items-center justify-between">
+          <div className="w-full lg:pr-12 max-w-[520px]">
+            <h1 className="text-4xl lg:text-[55px] font-bold text-[#1B1B20] leading-tight lg:leading-[65px] mb-6">
+              Your Local Market, Now Just A Tap Away
+            </h1>
+
+            <p className="text-[#666666] text-base lg:text-lg mb-8 leading-relaxed">
+              Browse real-time product prices, know what's in stock, and save
+              yourself the walk-around. Lomart brings your trusted market
+              online.
+            </p>
+
+            <div className="mb-8">
+              <div className="relative flex items-center w-full max-w-[500px]">
                 <input
                   type="text"
-                  placeholder="Search for earch tomatoes, yam, pepper, vendor names..."
-                  className="bg-white pl-4 pr-12 py-2 rounded-[5px] focus:outline-none focus:ring-2 focus:ring-[#05A845] w-full h-fit"
+                  placeholder="Search for oarch tomatoes, yam, pepper, vendor names..."
+                  className="bg-white pl-4 pr-16 py-4 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#05A845] w-full text-sm lg:text-base"
                 />
-                <div className="absolute right-1 bg-[#05A845] rounded-[5px] w-12 h-full flex items-center justify-center">
+                <button className="absolute right-2 bg-[#05A845] rounded-md w-12 h-10 flex items-center justify-center">
                   <img
                     src="/search.png"
                     alt="Search Icon"
                     className="h-4 w-4"
                   />
-                </div>
+                </button>
               </div>
-              <div className="mt-4 flex items-center gap-4">
-                <div className="flex items-center gap-2">
-                  <img src="/icon.png" alt="truck icon" className="h-5 w-5" />
-                  <p className="text-[#4D4D4D]"> Explore Markets</p>
-                </div>
-                <div className="flex items-center gap-2">
-                  <img
-                    src="/icon (1).png"
-                    alt="truck icon"
-                    className="h-5 w-5"
-                  />
-                  <p className="text-[#4D4D4D]">Sell on Lomart</p>
-                </div>
-              </div>
+            </div>
+
+            <div className="flex flex-col sm:flex-row  gap-3">
+              <button className="bg-[#2DCC70] text-[#323232] px-6 py-3 rounded-4xl flex items-center gap-2  text-sm lg:text-base w-full sm:w-auto justify-center">
+                <img src="/icon.svg" alt="explore icon" className="h-5 w-5" />
+                Explore Markets
+              </button>
+              <button className="bg-[#2DCC70] text-[#323232] border-2 border-[#05A845] px-6 py-3 rounded-4xl flex items-center gap-2 text-sm lg:text-base w-full sm:w-auto justify-center">
+                <img src="/icon (1).svg" alt="sell icon" className="h-5 w-5" />
+                Sell on Lomart
+              </button>
+            </div>
+          </div>
+
+          <div className="w-full lg:w-1/2 mt-12 lg:mt-0 hidden lg:block">
+            <div className="relative w-full">
+              <img
+                src="/hero image.png"
+                alt="Woman with fresh vegetables"
+                className="w-full h-auto object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-white/90 via-white/10 to-white/50 pointer-events-none"></div>
             </div>
           </div>
         </div>
