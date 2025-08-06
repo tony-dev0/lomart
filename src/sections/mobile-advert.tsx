@@ -1,0 +1,48 @@
+import React from "react";
+
+const MobileAdvert = () => {
+  return (
+    <div className="max-w-[1320px] mx-auto px-4 py-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="mobile-advert-img">
+          <img src="mobile-app.png" alt="" />
+        </div>
+        <div className="mobile-advert-content lg:px-12">
+          <div className="lg:mt-20 lg:mb-10 mb-5">
+            <h4 className="lg:text-3xl text-xl font-bold">
+              Connecting our user with iOS & Android apps. Download from App
+              Store & Play store
+            </h4>
+          </div>
+          <div className="lg:mb-10 mb-5">
+            <span>
+              Lorem ipsum dolor sit amet consectetur. Sit in sed sed rutrum
+              ultrices egestas. Neque leo praesent odio diam. Vel amet vitae
+              pulvinar cursus enim sagittis enim. Cum arcu vitae non scelerisque
+              cursus eget mi.
+            </span>
+          </div>
+          <div className="flex gap-5">
+            <div className="apple-store flex gap-3 bg-[#1B1B1B] rounded-lg py-2 px-4 items-center">
+              <img src="/app-store.svg" alt="" width={19} height={19} />
+              <div className="flex flex-col gap-0 text-white">
+                <span className="text-[9px] opacity-80">Download on the</span>
+                <span className="text-[11px]">App Store</span>
+              </div>
+            </div>
+
+            <div className="play-store flex gap-3 bg-black rounded-lg py-2 px-4 items-center">
+              <img src="/play-store.svg" alt="" width={19} height={19} />
+              <div className="flex flex-col gap-0 text-white">
+                <span className="text-[9px] opacity-80">Download on the</span>
+                <span className="text-[11px]">Google Play</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default MobileAdvert;

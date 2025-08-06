@@ -63,11 +63,11 @@ const HeroSection = () => {
 
             <div className="flex flex-col sm:flex-row  gap-3">
               <button className="bg-[#2DCC70] text-[#323232] px-6 py-3 rounded-4xl flex items-center gap-2  text-sm lg:text-base w-full sm:w-auto justify-center">
-                <img src="/icon.svg" alt="explore icon" className="h-5 w-5" />
+                <img src="/icon1.svg" alt="explore icon" className="h-5 w-5" />
                 Explore Markets
               </button>
               <button className="bg-[#2DCC70] text-[#323232] border-2 border-[#05A845] px-6 py-3 rounded-4xl flex items-center gap-2 text-sm lg:text-base w-full sm:w-auto justify-center">
-                <img src="/icon (1).svg" alt="sell icon" className="h-5 w-5" />
+                <img src="/icon2.svg" alt="sell icon" className="h-5 w-5" />
                 Sell on Lomart
               </button>
             </div>
