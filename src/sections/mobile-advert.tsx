@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 const MobileAdvert = () => {
   return (
     <div className="max-w-[1320px] mx-auto px-4 py-8" data-aos="fade-up">
