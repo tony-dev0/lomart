@@ -1,4 +1,4 @@
-import ProductComponent from "../components/productComponent";
+import ProductComponent from "../components/ProductComponent";
 import { featuredProducts } from "../assets/data";
 
 const FeaturedProducts = () => {
