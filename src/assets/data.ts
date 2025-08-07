@@ -122,3 +122,23 @@ export const faqs = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nobis minima consequuntur non eum aut quam ea quidem odio repellendus sapiente rem nam voluptatem cupiditate reprehenderit.",
   },
 ];
+
+export const metrics = [
+  {
+    title: "Verified Vendors",
+    text: "Every seller on Lomart is carefully vetted. Shop confidently, knowing you’re dealing with real, trusted market vendors.",
+    icon: "/QA engineers-bro 2.png",
+    arrow: "/__after.png",
+  },
+  {
+    title: "Real-Time Pricing & Availability",
+    text: "See up-to-date prices and stock levels. no more guesswork or surprises when you arrive.",
+    icon: "/Delivery-cuate 2.png",
+    arrow: "/__after (1).png",
+  },
+  {
+    title: "Direct Connection, No Hassles",
+    text: "Chat directly with sellers to ask questions, reserve products, or confirm details—all within Lomart.",
+    icon: "/Wallet-rafiki 2.png",
+  },
+];

@@ -1,29 +1,14 @@
-import React from "react";
-
-const metrics = [
-  {
-    title: "Verified Vendors",
-    text: "Every seller on Lomart is carefully vetted. Shop confidently, knowing you’re dealing with real, trusted market vendors.",
-    icon: "/QA engineers-bro 2.png",
-    arrow: "/__after.png",
-  },
-  {
-    title: "Real-Time Pricing & Availability",
-    text: "See up-to-date prices and stock levels. no more guesswork or surprises when you arrive.",
-    icon: "/Delivery-cuate 2.png",
-    arrow: "/__after (1).png",
-  },
-  {
-    title: "Direct Connection, No Hassles",
-    text: "Chat directly with sellers to ask questions, reserve products, or confirm details—all within Lomart.",
-    icon: "/Wallet-rafiki 2.png",
-  },
-];
+import { useEffect } from "react";
+import { metrics } from "../assets/data";
 
 const WhyLeomart = () => {
   return (
-    <div className="max-w-[1320px] mx-auto px-4 py-8">
-      <div className="text-center mb-8 lg:mb-12">
+    <div className="max-w-[1320px] mx-auto px-4 py-8" data-aos="fade-up">
+      <div
+        className="text-center mb-8 lg:mb-12"
+        data-aos="fade-down"
+        data-aos-delay="100"
+      >
         <h2 className="font-bold text-2xl lg:text-4xl text-[#2DCC70]">
           Why Choose Lomart?
         </h2>
@@ -31,7 +16,12 @@ const WhyLeomart = () => {
 
       <div className="flex flex-col lg:flex-row items-center justify-center gap-6 lg:gap-4">
         {metrics.map((metric, index) => (
-          <div key={index} className="flex items-start">
+          <div
+            key={index}
+            className="flex items-start"
+            data-aos="fade-up"
+            data-aos-delay={150 + index * 100}
+          >
             <div className="flex flex-col items-center text-center max-w-[305px] w-full">
               <div className="mb-4 lg:mb-6">
                 <img
@@ -50,7 +40,11 @@ const WhyLeomart = () => {
               </div>
             </div>
             {metric.arrow && index < metrics.length - 1 && (
-              <div className="hidden lg:flex items-center justify-center ml-4">
+              <div
+                className="hidden lg:flex items-center justify-center ml-4"
+                data-aos="fade-left"
+                data-aos-delay={200 + index * 100}
+              >
                 <img
                   src={metric.arrow}
                   alt="Arrow"
