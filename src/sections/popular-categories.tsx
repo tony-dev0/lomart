@@ -2,8 +2,12 @@ import { categories } from "../assets/data";
 
 const PopularCategories = () => {
   return (
-    <div className="max-w-[1320px] mx-auto px-4 py-8">
-      <div className="text-center mb-8 lg:mb-12">
+    <div className="max-w-[1320px] mx-auto px-4 py-8" data-aos="fade-up">
+      <div
+        className="text-center mb-8 lg:mb-12"
+        data-aos="fade-down"
+        data-aos-delay="100"
+      >
         <h2 className="font-bold text-2xl lg:text-4xl text-[#2DCC70]">
           Popular Categories
         </h2>
@@ -13,6 +17,8 @@ const PopularCategories = () => {
         {categories.map((category, index) => (
           <div
             key={index}
+            data-aos="fade-up"
+            data-aos-delay={150 + index * 200}
             className={`
               ${category.bgColor}
               ${category.size === "large" ? "lg:row-span-2" : ""}

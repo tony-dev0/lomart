@@ -4,14 +4,14 @@ const MobileAdvert = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div
           className="mobile-advert-img"
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-delay="100"
         >
           <img src="mobile-app.png" alt="" />
         </div>
         <div
           className="mobile-advert-content lg:px-12"
-          data-aos="fade-left"
+          data-aos="fade-up"
           data-aos-delay="200"
         >
           <div

@@ -5,11 +5,7 @@ const HeroSection = () => {
     <div>
       <div className="bg-white">
         <div className="max-w-[1320px] mx-auto px-4 flex flex-col md:flex-row md:items-center justify-between gap-3">
-          <div
-            className="flex items-center gap-6"
-            data-aos="fade-down"
-            data-aos-delay="100"
-          >
+          <div className="flex items-center gap-6">
             <button className="bg-[#2DCC70] text-white py-3 px-2 md:px-4 md:py-4 h-fit text-xs md:text-sm font-medium flex items-center gap-2">
               <img
                 src="/menu (1).png"
