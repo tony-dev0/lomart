@@ -9,7 +9,7 @@ const MobileAdvert = () => {
         </div>
         <div className="mobile-advert-content lg:px-12">
           <div className="lg:mt-20 lg:mb-10 mb-5">
-            <h4 className="lg:text-3xl text-xl font-bold">
+            <h4 className="lg:text-3xl text-2xl font-bold">
               Connecting our user with iOS & Android apps. Download from App
               Store & Play store
             </h4>
