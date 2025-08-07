@@ -24,7 +24,7 @@ const MobileAdvert = () => {
           </div>
           <div className="flex gap-5">
             <div className="apple-store flex gap-3 bg-[#1B1B1B] rounded-lg py-2 px-4 items-center">
-              <img src="/app-store.svg" alt="" width={19} height={19} />
+              <img src="/app-store.png" alt="" width={19} height={19} />
               <div className="flex flex-col gap-0 text-white">
                 <span className="text-[9px] opacity-80">Download on the</span>
                 <span className="text-[11px]">App Store</span>
@@ -32,7 +32,7 @@ const MobileAdvert = () => {
             </div>
 
             <div className="play-store flex gap-3 bg-black rounded-lg py-2 px-4 items-center">
-              <img src="/play-store.svg" alt="" width={19} height={19} />
+              <img src="/play-store.png" alt="" width={19} height={19} />
               <div className="flex flex-col gap-0 text-white">
                 <span className="text-[9px] opacity-80">Download on the</span>
                 <span className="text-[11px]">Google Play</span>

@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="flex gap-3 lg:flex-col justify-center mb-3">
               {/* apple store start */}
               <div className="apple-store w-fit flex gap-3 bg-[#1B1B1B] rounded-lg py-2 px-8 items-center">
-                <img src="/app-store.svg" alt="" width={19} height={19} />
+                <img src="/app-store.png" alt="" width={19} height={19} />
                 <div className="flex flex-col gap-0 text-white">
                   <span className="text-[9px] opacity-80">Download on the</span>
                   <span className="text-[11px]">App Store</span>
@@ -20,7 +20,7 @@ const Footer = () => {
               {/* apple store end */}
               {/* playstore start */}
               <div className="play-store w-fit flex gap-3 bg-black rounded-lg py-2 px-8 items-center">
-                <img src="/play-store.svg" alt="" width={19} height={19} />
+                <img src="/play-store.png" alt="" width={19} height={19} />
                 <div className="flex flex-col gap-0 text-white">
                   <span className="text-[9px] opacity-80">Download on the</span>
                   <span className="text-[11px]">Google Play</span>
