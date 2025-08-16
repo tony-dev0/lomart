@@ -1,3 +1,10 @@
+import {
+  faClock,
+  faRankingStar,
+  faTruckFast,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const Footer = () => {
   return (
     <footer className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 bg-[#F3F4F6]">
@@ -62,7 +69,7 @@ const Footer = () => {
               <li className="mb-4">
                 <a
                   href="javascript:;"
-                  className=" text-green-500 hover:text-gray-600"
+                  className="text-green-500 hover:text-gray-600"
                 >
                   contact@lomart.com
                 </a>
@@ -153,15 +160,18 @@ const Footer = () => {
       <div className="py-5 border-t border-gray-200">
         <div className="flex justify-center max-sm:flex-col items-center max-md:gap-10 gap-20">
           <div className="flex items-center gap-2">
-            <img src="/icon1.png" alt="" width={25} height={25} />
+            <FontAwesomeIcon className="text-green-400" icon={faTruckFast} />
+            {/* <img src="/icon1.png" alt="" width={25} height={25} /> */}
             <span className="text-sm text-gray-500">Fast Delivery</span>
           </div>
           <div className="flex items-center gap-2">
-            <img src="/icon2.png" alt="" width={25} height={25} />
+            <FontAwesomeIcon className="text-green-400" icon={faRankingStar} />
+            {/* <img src="/icon2.png" alt="" width={25} height={25} /> */}
             <span className="text-sm text-gray-500">Quality assurance</span>
           </div>
           <div className="flex items-center gap-2">
-            <img src="/icon3.png" alt="" width={25} height={25} />
+            <FontAwesomeIcon className="text-green-400" icon={faClock} />
+            {/* <img src="/icon3.png" alt="" width={25} height={25} /> */}
             <span className="text-sm text-gray-500">24/7 support service</span>
           </div>
         </div>

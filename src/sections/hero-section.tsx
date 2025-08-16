@@ -31,7 +31,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className=" lg:min-h-[600px]">
+      <div className="lg:min-h-[600px]">
         <div className="max-w-[1320px] mx-auto px-4 py-6 lg:py-2 flex flex-col lg:flex-row items-center justify-between">
           <div
             className="w-full lg:pr-12 max-w-[520px]"

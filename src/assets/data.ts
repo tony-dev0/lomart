@@ -104,22 +104,22 @@ export const faqs = [
   {
     question: "Q. Is Lomart a delivery service?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nobis minima consequuntur non eum aut quam ea quidem odio repellendus sapiente rem nam voluptatem cupiditate reprehenderit.",
+      "Yes, Lomart is a delivery service. Lomart Delivery is a logistics service offered by Lomart, designed to support businesses and individuals with their shipping needs, not just for items bought on the Lomart marketplace.",
   },
   {
-    question: "Q. How do I know prices are accurate?",
+    question: "Q. Can I Return the Items I Bought From Lomart?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nobis minima consequuntur non eum aut quam ea quidem odio repellendus sapiente rem nam voluptatem cupiditate reprehenderit.",
+      "Yes, you can return items you bought for free and get refunded as soon as possible! We have a refund policy that grants you 7 days to return ALL eligible items bought from the official store and other sellers on Lomart Store.",
   },
   {
     question: "Q. Can I contact the seller before buying?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nobis minima consequuntur non eum aut quam ea quidem odio repellendus sapiente rem nam voluptatem cupiditate reprehenderit.",
+      "Lomart provides a system for customers to communicate with sellers, particularly for after-sales queries or to resolve disputes",
   },
   {
-    question: "Q. Is Lomart free to use?",
+    question: "Q. How Can I Become a Seller on Lomart?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nobis minima consequuntur non eum aut quam ea quidem odio repellendus sapiente rem nam voluptatem cupiditate reprehenderit.",
+      "You can partner with Lomart as a seller on the website. All you need to do is register and follow the necessary steps. With our large customer base, we can help you reach a wider audience and sell many of your products to our customers",
   },
 ];
 
