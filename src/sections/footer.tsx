@@ -161,7 +161,7 @@ const Footer = () => {
         <div className="flex justify-center max-sm:flex-col items-center max-md:gap-10 gap-20">
           <div className="flex items-center gap-2">
             <FontAwesomeIcon
-              className="text-green-500"
+              className="text-green-400"
               size="lg"
               icon={faTruckFast}
             />
@@ -170,7 +170,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center gap-2">
             <FontAwesomeIcon
-              className="text-green-500"
+              className="text-green-400"
               size="lg"
               icon={faRankingStar}
             />
@@ -179,7 +179,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center gap-2">
             <FontAwesomeIcon
-              className="text-green-500"
+              className="text-green-400"
               size="lg"
               icon={faClock}
             />
