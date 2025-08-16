@@ -160,17 +160,29 @@ const Footer = () => {
       <div className="py-5 border-t border-gray-200">
         <div className="flex justify-center max-sm:flex-col items-center max-md:gap-10 gap-20">
           <div className="flex items-center gap-2">
-            <FontAwesomeIcon className="text-green-400" icon={faTruckFast} />
+            <FontAwesomeIcon
+              className="text-green-500"
+              size="lg"
+              icon={faTruckFast}
+            />
             {/* <img src="/icon1.png" alt="" width={25} height={25} /> */}
             <span className="text-sm text-gray-500">Fast Delivery</span>
           </div>
           <div className="flex items-center gap-2">
-            <FontAwesomeIcon className="text-green-400" icon={faRankingStar} />
+            <FontAwesomeIcon
+              className="text-green-500"
+              size="lg"
+              icon={faRankingStar}
+            />
             {/* <img src="/icon2.png" alt="" width={25} height={25} /> */}
             <span className="text-sm text-gray-500">Quality assurance</span>
           </div>
           <div className="flex items-center gap-2">
-            <FontAwesomeIcon className="text-green-400" icon={faClock} />
+            <FontAwesomeIcon
+              className="text-green-500"
+              size="lg"
+              icon={faClock}
+            />
             {/* <img src="/icon3.png" alt="" width={25} height={25} /> */}
             <span className="text-sm text-gray-500">24/7 support service</span>
           </div>
